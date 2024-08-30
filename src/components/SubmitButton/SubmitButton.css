@@ -1,0 +1,20 @@
+.submit-button {
+     background-color: #ea4c88;
+     border-radius: 0.25rem;
+     border: none;
+     color: #eee;
+     cursor: pointer;
+     font-weight: bold;
+     padding: 1.3rem;
+     text-transform: uppercase;
+     transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+     background-color: #d44179;
+}
+
+.submit-button:disabled {
+     background-color: #7a7a7a;
+     cursor: not-allowed;
+}

@@ -1,0 +1,25 @@
+.form-group {
+     display: flex;
+     flex-direction: column;
+}
+
+.form-input {
+     background-color: #3b4148;
+     border-radius: 0.25rem;
+     border: none;
+     color: #eee;
+     outline: none;
+     padding: 1.3rem;
+     transition: background-color 0.3s;
+}
+
+.form-input:focus,
+.form-input:hover {
+     background-color: #434a52;
+}
+
+.error-message {
+     color: #ea4c88;
+     font-size: 0.875rem;
+     margin-top: 0.25rem;
+}
